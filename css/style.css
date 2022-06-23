@@ -1,0 +1,44 @@
+
+body{
+
+    background-color: #777 !important;
+}
+
+ul{
+    list-style: none;
+}
+#card1:hover .card-header{
+    background-color: black;
+    color: white;
+}
+
+#head1{ 
+margin-left: 230px;
+}
+
+.pic{
+    width: 100%;
+    height:210px;
+    background-image: url(../images/3.jpg) ;
+    background-attachment: fixed;
+    background-size: cover;
+  
+    position: relative;
+ }
+ .pic1{
+    width: 100%;
+    height:210px;
+    background-image: url(../images/images.jpg) ;
+    background-attachment: fixed;
+    background-size: cover;
+  
+    position: relative;
+ }
+ .fh2{
+     text-align: center;
+     color: white;
+     margin: 20px 0px;
+ }
+ .fc1{
+     margin-right: 10px;
+ }

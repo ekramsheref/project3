@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project3</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/all.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-secondary navbar-dark  sticky-top " style="opacity:0.8">
+    <a class="navbar-brand" href="#">
+     <img src="images/logo.jpg" class="me-3 rounded-circle" alt="Logo" style="width:35px;">
+   </a>
+ 
+ 
+  <!-- Brand -->
+  <a class="navbar-brand text-light pr-2" href="#" style="border-right:1px solid #ccc;  font-weight: bold;">Good</a>
+     
+
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Home</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item  active dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+          course
+        </a>
+        <ul class="dropdown-menu" >
+          <li><a class="dropdown-item" target="_blank" href="">python</a></li>
+          <li><a class="dropdown-item" target="_blank" href=""> java</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" target="_blank" href="">html</a></li>
+          <li><a class="dropdown-item" target="_blank" href="">css</a></li>
+          <li><a class="dropdown-item" target="_blank" href="">javascript</a></li>
+          <li><a class="dropdown-item" target="_blank" href="">bootstrap</a></li>
+          <li><a class="dropdown-item" target="_blank" href="">json</a></li>
+
+        </ul>
+      </li>
+      <li class="nav-item active ">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item" id="head1">
+        <form class="form-inline" action="/action_page.php">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-outline-light  " type="submit">Search</button>
+        </form>
+      </li>
+      <li class="nav-item">
+        <div class="container">
+  
+
+          <!-- Button to Open the Modal -->
+          
+          <button type="button" class="btn btn-outline-light " data-toggle="modal" data-target="#myModal">
+           Login
+          </button>
+          <!-- The Modal -->
+          
+      </li>
+     </ul>
+  </div>
+  
+</nav>
+     <!-- //////////////////////////////////////////////////////////////////// -->
+     <div id="demo" class="carousel slide" data-ride="carousel">
+
+        
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3"></li>
+      </ul>
+    
+  
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/4.jpg" class="d-block w-100" height="550px" >
+          <div class="carousel-caption">
+            <h1>html</h1>
+            <a href="" class="btn btn-primary" target="_blank">view this course</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/1.webp" class="d-block w-100" height="550px">
+          <div class="carousel-caption">
+            <h1>css</h1>
+            <a href="" class="btn btn-primary" target="_blank">view this course</a>
+          </div> 
+        </div>
+        <div class="carousel-item">
+          <img src="images/2.jpg"  class="d-block w-100" height="550px" >
+          <div class="carousel-caption">
+            <h1>javascript</h1>
+            <a href="" class="btn btn-primary" target="_blank">view this course</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/3.jpg"  class="d-block w-100" height="550px" >
+          <div class="carousel-caption">
+            <h1>Json</h1>
+            <a href="" class="btn btn-primary" target="_blank">view this course</a>
+          </div>
+        </div>
+      </div>
+  </div>
+      
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    
+    </div>
+    <div class="card bg-dark text-white">
+      <div class="card-body" style="padding-top:50px;">
+        <h2 class="card-title">Welcome</h2>
+        <p class="card-text">programming without language and without code.</p>
+        <a href="#" class="btn btn-primary mt-4">learn more</a>
+      </div>
+    </div>
+    <br>
+    <br>
+    <h1 class="text-center text-light bg-secondary p-3 m-0 ">Programming language </h1>
+    <div id="accordion">
+  
+      <div class="card" id="card1">
+        <div class="card-header">
+          <p class="collapsed card-link " data-toggle="collapse" href="#collapseOne">
+            python programming language
+          </p>
+        </div>
+        <div id="collapseOne" class="collapse " data-parent="#accordion">
+          <div class="card-body" id="nocard">
+            Python is powerful... and fast, plays well with others,runs everywhere, is friendly & easy to learn, is Open.      
+  
+          </div>
+        </div>
+      </div>
+    
+      <div class="card" id="card1" >
+        <div class="card-header">
+          <p class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+          java programming language
+          </p>
+        </div>
+        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            Java is a powerful general-purpose programming language. It is used to develop desktop and mobile applications, big data processing, embedded systems, and so on. According to Oracle, the company that owns Java, Java runs on 3 billion devices worldwide, which makes Java one of the most popular programming languages.      </div>
+  
+          </div>
+        </div>
+      </div>
+    
+      <div class="card" id="card1" >
+        <div class="card-header">
+          <p class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+            javaScript programming language
+          </p>
+        </div>
+        <div id="collapseThree" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            JavaScript is a scripting or programming language that allows you to implement complex features on web pages.
+          </div>
+        </div>
+      </div>
+    
+    </div>
+    <br>
+    <h1 class="text-center text-light bg-secondary p-3 m-0 ">Python is very easy</h1>
+    <div class="card bg-dark text-white">
+    <div class="card-body">
+      <h4 class="card-title">try the code below from <a href="#">here</a> </h4>
+      <pre>
+  <a href="#" class="btn btn-outline-light btn-sm" data-toggle="tooltip" title="copy to clipboard">copy</a></pre>
+      
+      
+      <pre>
+      <p class="text-info font-weight-bold	" style="font-size:19px;" >        name = input('enter your name: '); print("Hello" + name)</p></pre>
+    </div>
+     </div>
+     <br>
+    <h1 class="text-center text-light bg-secondary p-3 m-0 ">Java is very easy
+    </h1>
+    <div class="card bg-dark text-white">
+    <div class="card-body">
+      <h4 class="card-title">try the code below from <a href="#">here</a> </h4>
+      <pre>
+  <a href="#" class="btn btn-outline-light btn-sm" data-toggle="tooltip" title="copy to clipboard">copy</a></pre>
+      
+      
+      <pre>
+      <p class="text-info  font-weight-bold	" style="font-size:19px;" >        System.out.println("Hello World!");
+      </p></pre>
+    </div>
+     </div>
+     <br>
+    <h1 class="text-center text-light bg-secondary p-3 m-0 ">Javascript is very easy
+    </h1>
+    <div class="card bg-dark text-white">
+    <div class="card-body">
+      <h4 class="card-title">try the code below from <a href="#">here</a> </h4>
+      <pre>
+  <a href="#" class="btn btn-outline-light btn-sm" data-toggle="tooltip" title="copy to clipboard">copy</a></pre>
+    
+      
+      <pre>
+      <p class="text-info  font-weight-bold	" style="font-size:19px;" >        console.log("Welcome to Programiz!");
+      </p></pre>
+    </div>
+     </div>
+     <br>
+     <br>
+  <div class="pic">
+  </div>
+  <h2 class="fh2">Good basic</h2>
+  <div class="container-fluid">
+  <div class="row justify-content-around pb-5" style="background-color: #555; border-radius: 7px; ">
+  <!-- html -->
+  <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-4 m-1 mt-5 " style="width: 300px; ">
+  <img class="card-img-top" src="images/HTML.png" alt="Card image">
+  <div class="card-body">
+    <h5 class="card-title text-light">Html</h5>
+    <p class="card-text text-light">html from zero to hero.  </p>
+    <a href="#" class="btn btn-primary">download the book</a>
+  </div>
+  </div>
+  
+  <!-- css -->
+  <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-4 m-1 mt-5 " style="width: 300px; ">  <img class="card-img-top" src="images/css.png" alt="Card image">
+  <div class="card-body">
+  <h5 class="card-title text-light">Css</h5>
+  <p class="card-text text-light">Css from zero to hero.  </p>
+  <a href="#" class="btn btn-primary">download the book</a>
+  </div>
+  </div>
+  <!-- JavaScript -->
+  <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-4 m-1 mt-5 " style="width: 300px; ">  <img class="card-img-top" src="images/JS.png" alt="Card image" height="215PX" >
+  <div class="card-body">
+  <h5 class="card-title text-light">JavaScript</h5>
+  <p class="card-text text-light">JS from zero to hero.  </p>
+  <a href="#" class="btn btn-primary">download the book</a>
+  </div>
+  </div>
+  <!-- Bootstrap -->
+  <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-4 m-1 mt-5 " style="width: 300px; ">  <img class="card-img-top" src="images/bootstrap.png" alt="Card image" height="215PX">
+  <div class="card-body">
+  <h5 class="card-title text-light">Bootstrap</h5>
+  <p class="card-text text-light">Bootstrap from zero to hero.  </p>
+  <a href="#" class="btn btn-primary">download the book</a>
+  </div>
+  </div>
+  <!-- python -->
+  <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-4 m-1 mt-5 " style="width: 300px; ">  <img class="card-img-top" src="images/Python-Symbol.png" alt="Card image"height="215PX" >
+  <div class="card-body">
+  <h5 class="card-title text-light">python</h5>
+  <p class="card-text text-light">python from zero to hero.  </p>
+  <a href="#" class="btn btn-primary">download the book</a>
+  </div>
+  </div>
+  <!--java -->
+  <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-4 m-1 mt-5 " style="width: 300px; ">  <img class="card-img-top" src="images/java.webp" alt="Card image" height="215PX" >
+  <div class="card-body">
+  <h5 class="card-title text-light">java</h5>
+  <p class="card-text text-light">java from zero to hero.  </p>
+  <a href="#" class="btn btn-primary">download the book</a>
+  </div>
+  </div>
+  <!--json -->
+  <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-4 m-1 mt-5 " style="width: 300px; ">  <img class="card-img-top" src="images/json-logo.png" alt="Card image" height="215PX">
+  <div class="card-body">
+  <h5 class="card-title text-light">json</h5>
+  <p class="card-text text-light">json from zero to hero.  </p>
+  <a href="#" class="btn btn-primary">download the book</a>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="pic1" >
+  </div>
+  <br>
+  <hr class="border-top border-dark">
+  
+  <h2 class="fh2">Thanks for</h2>
+  <div class="container">
+  <div class="row justify-content-around pb-5">
+  <div class="card   text-light col-lg-3 col-md-4  m-1 mt-4 " style="width: 200px; background-color: black;">  <img class="card-img-top" src="images/trainer1.jpg" alt="Card image"height="215PX" >
+  <div class="card-body">
+    <h5 class="card-title text-light">Eng : Islam</h5>
+  </div>
+  </div>
+  <div class="card   text-light col-lg-3 col-md-4   m-1 mt-4 " style="width: 200px; background-color: black; ">  <img class="card-img-top" src="images/trainer1.jpg" alt="Card image"height="215PX" >
+  <div class="card-body">
+    <h5 class="card-title text-light">Eng : Islam</h5>
+  </div>
+  </div>
+  <div class="card   text-light col-lg-3 col-md-4  m-1 mt-4 " style="width:200px;  background-color: black;">  <img class="card-img-top" src="images/trainer1.jpg" alt="Card image"height="215PX" >
+  <div class="card-body">
+    <h5 class="card-title text-light">Eng : Islam</h5>
+  </div>
+  </div>
+  </div>
+  </div>
+  
+  
+  <hr class="border-top border-dark">
+  
+  <h2 class="fh2 mb-2">Join Us</h2>
+  <div class="container-fluid">
+  <div class="row justify-content-center">
+  <div class="card m-5 " style="width: 238px; background-color: black; ">
+  <div class="card-body text-light text-center">
+    
+    <h5 class="card-title mb-4 ">Subscribe Now</h5>
+    <img src="images/facebook-512.webp" height="35px">
+      <br>
+    <br>    
+    <a href="" target="_blank" class="card-link" style="color: rgb(255, 198, 255);">Go to link</a>
+  </div>
+  </div>
+  
+  <div class="card m-5 fc1" style="width: 238px; background-color: black; ">
+  <div class="card-body text-light text-center">
+    
+    <h5 class="card-title mb-4 ">Follow</h5>
+    <img src="images/facebook-512.webp" height="35px">
+      <br>
+    <br>    
+    <a href="" target="_blank" class="card-link"style="color: rgb(255, 198, 255);" >Go to link</a>
+  </div>
+  </div>
+  
+  <div class="card m-5" style="width: 238px; background-color: black; ">
+  <div class="card-body text-light   text-center">
+    
+    <h5 class="card-title mb-4">like the page</h5>
+    <img src="images/facebook-512.webp" height="35px">
+      <br>
+    <br>    
+    <a href="" target="_blank" class="card-link" style="color: rgb(255, 198, 255);">Go to link</a>
+  </div>
+  </div>
+  
+  <div class="card m-5" style="width: 235px; background-color: black; ">
+  <div class="card-body text-light   text-center">
+    
+    <h5 class="card-title mb-4">watch the video</h5>
+    <img src="images/facebook-512.webp" height="35px">
+      <br>
+    <br>    
+    <a href="" target="_blank" class="card-link" style="color: rgb(255, 198, 255);">Go to link</a>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class=" text-light mt-4  " style="background-color: rgb(34, 33, 33);">
+  <div class="container-fluid" >
+  <div class="row text-center justify-content-around">
+  <div class="col-md-4">
+    <br>
+   
+    <hr class="border-top my-2 border-secondary">
+    <h5><img src="images/facebook-512.webp" height="30px"  >Good Company
+  
+    </h5>
+    <hr class="border-top my-3 border-secondary ">
+    <p>
+      <p>Tel : 000-000-000</p>
+      <p>Address : EGYPT</p>
+      <p>Fax : 000-000-000</p>
+    </p>
+  </div>
+  
+  <div class="col-md-4">
+    <br>
+  
+    <hr class="border-top my-2 border-secondary">
+    <h5><img src="images/facebook-512.webp" height="30px"  > Important links
+    </h5>
+    <hr class="border-top border-secondary">
+    <p>
+      <a href="" style="color: rgb(213, 192, 219); text-decoration:underline;" >Visit Us</a></p>
+      <p><a href="" style="color: rgb(213, 192, 219); text-decoration:underline;">Take alook</a></p>
+      <p><a href="" style="color: rgb(213, 192, 219); text-decoration:underline;">Your health is more important</a></p>
+    </p>
+  </div>
+  <div class="col-md-4">
+    <br>
+    <hr class="border-top my-2 border-secondary">
+    <h5><img src="images/facebook-512.webp" height="30px"  >Vision
+    </h5>
+    <hr class="border-top border-secondary">
+    <p>
+      <p> Serveices for all</p>
+      <p>Provide best serveices</p>
+      <p> you will be better than before</p>
+    </p>
+  </div>
+  <br>
+  
+  <div class="col-md-12  mb-5">
+    <hr class="border-top border-secondary" >
+    <p class="text-secondary">Copyright &copy 2020 Shaimaa Hassan Elsaeed, Good Company. All rights
+    </p>
+    <hr class="border-bottom border-secondary" >
+  
+    
+  
+  
+  </div>
+  </div>
+  </div>
+  
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title  text-dark">Login</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <div class="container">
+ 
+  <form action="/action_page.php">
+    <div class="form-group text-dark">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group  text-dark">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label text-dark">
+        <input class="form-check-input  " type="checkbox" name="remember"> Remember me
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+
+
+
+
+
+
+
+
+       
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
